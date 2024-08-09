@@ -1,0 +1,94 @@
+
+body, h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #d51461;
+}
+h2, p, section {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url('https://images.unsplash.com/photo-1676951334972-2e65e67f4cbe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#section2 {
+    background-image: url('https://images.unsplash.com/photo-1597822759274-7718de15a8b9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#section3 {
+    background-image: url('https://images.unsplash.com/photo-1533233128471-17d6d62322ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+
+.content {
+    text-align: center;
+    max-width: 80%;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+.content p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+#fragrance {
+    background-image: url('https://images.unsplash.com/photo-1562252185-16feebe22b25?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#ingredients {
+    background-image: url('https://images.unsplash.com/photo-1717819984019-6122b5e9fa3c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJhbCUyMGluZ3JlZGllbnRzfGVufDB8fDB8fHww');
+}
+
+.section h2 {
+    font-size: 2.76em;
+    margin-bottom: 0.5em;
+    color: #ffd700;
+}
+
+.section p {
+    font-size: 1.5em;
+    color: #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+}
